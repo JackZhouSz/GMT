@@ -1,0 +1,32 @@
+mode: Train
+pre_train: null
+device: gpu
+
+train_data_path:  ['data/Train/PSL','data/Train/Truss','data/Train/PSL']
+vail_data_path:   ['data/Vail/PSL', 'data/Vail/Truss', 'data/Vail/TPMS']
+
+
+batch_size: 3
+num_works: 3
+learning_rate: 4e-4
+max_epoch: 120
+
+output_path: ./result
+logger:
+  path: tf_logs
+  version: v0
+checkpoint:
+  path: checkpoint
+
+
+resolution: 64
+
+model:
+  level: 5
+  trans_channel: [ 24, 48, 96, 192,384]
+  trans_block: [4, 4, 4, 4, 4]
+  trans_head: [2, 4, 4, 8, 8]
+  trans_window_size: [256, 512, 1024, 1024, 1024]
+GMG:
+  smooth_iter: [1,2,2,2,2]
+  max_cycle: 1
