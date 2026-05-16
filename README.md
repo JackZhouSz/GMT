@@ -4,7 +4,7 @@ Official implementation of **GMT: A Geometric Multigrid Transformer Solver for M
 
 
 <!-- [![ACM](https://img.shields.io/static/v1?label=ACM&message=10.1145/3811333&color=blue&logo=acm)](https://dl.acm.org/doi/abs/10.1145/3637528.3671961) &emsp;&emsp;  -->
-[![Arxiv link](https://img.shields.io/static/v1?label=arXiv&message=2604.26518&color=red&logo=arxiv)](https://arxiv.org/abs/2405.10800)
+[![Arxiv link](https://img.shields.io/static/v1?label=arXiv&message=2604.26518&color=red&logo=arxiv)](https://arxiv.org/abs/2604.26518)
 
 ![GMT overview](assets/teaser.jpg)
 
