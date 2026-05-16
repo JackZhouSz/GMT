@@ -1,4 +1,4 @@
-# GMT: Geometric Multigrid Transformer
+# GMT: A Geometric Multigrid Transformer Solver for Microstructure Homogenization
 
 Official implementation of **GMT: A Geometric Multigrid Transformer Solver for Microstructure Homogenization**, accepted to the **SIGGRAPH 2026 Journal Track**.
 
